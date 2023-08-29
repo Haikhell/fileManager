@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "strict": false,
+    "exactOptionalPropertyTypes": false,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "preserveWatchOutput": true,
+    "pretty": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types",
+    ],
+    "outDir": "./dist"
+  },
+}
